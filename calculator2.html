@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title> Calculator</title>
+        <style>
+            .container{
+                width: 200px;
+                height: 280px;
+                padding: 20px;
+                border-radius: 10px;
+                background-color: rgb(226,221,215);
+            }
+            .rows{
+                width: 200px;
+                height: 50px;
+                border-radius: 10px;
+                background-color: black;
+                box-shadow: 5px 5px 10px #918888;
+            }
+            .row1, .row2, .row3, .row4{
+                height: 50px;
+                margin: 10px 10px;
+                display:flex;
+
+            }
+            .r1, .r2,.r3,.r4,.r5{
+                width: 50px;
+                margin: 5px 5px;
+                color: #000;
+                text-align: center;
+                padding-top: 10px;
+                border-radius: 10px;
+                box-shadow: 5px 5px 10px #918888;
+            }
+            .btblack{
+                width: 50px;
+                margin: 5px 5px;
+                background-color: #000;
+                color: #fff;
+                border-radius: 10px;
+                box-shadow: 5px 5px 10px #918888;
+                text-align: center;
+                padding-top: 10px;
+            }
+            .btred{
+                width: 50px;
+                margin: 5px 5px;
+                background-color: rgb(201,12,21);
+                color: #fff;
+                border-radius: 10px;
+                box-shadow: 5px 5px 10px #918888;
+                text-align: center;
+                padding-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="rows">
+                <div></div>
+            </div>
+            <div class="row1">
+                <div class="r2">1</div> 
+                <div class="r2">2</div> 
+                <div class="r2">3</div> 
+                <div class="btblack">+</div> 
+            </div>
+            <div class="row2">
+                <div class="r3">4</div> 
+                <div class="r3">5</div> 
+                <div class="r3">6</div> 
+                <div class="btblack">-</div> 
+            </div>
+            <div class="row3">
+                <div class="r3">7</div> 
+                <div class="r3">8</div> 
+                <div class="r3">9</div> 
+                <div class="btblack">*</div> 
+            </div>
+            <div class="row4">
+                <div class="btred">C</div> 
+                <div class="r5">0</div> 
+                <div class="btblack">=</div> 
+                <div class="btblack">/</div> 
+            </div>
+            
+        </div>
+    </body>
+</html>
